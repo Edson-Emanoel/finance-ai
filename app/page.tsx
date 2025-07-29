@@ -1,7 +1,23 @@
-export default function Home() {
+import { UserButton } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+import { auth } from "@clerk/nextjs/server";
+import { dark } from "@clerk/themes";
+
+const Home = async () => {
+  const { userId } = await auth();
+  if (!userId) {
+    redirect("/login");
+  }
   return (
-    <div className="flex w-screen items-center justify-center">
-      <h1 className="text-yellow-400">Hello, ZAWARUDO!</h1>
+    <div className="flex h-full items-center">
+      <UserButton
+        showName
+        appearance={{
+          baseTheme: dark,
+        }}
+      />
     </div>
   );
-}
+};
+
+export default Home;
