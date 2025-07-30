@@ -2,6 +2,7 @@ import { UserButton } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import { auth } from "@clerk/nextjs/server";
 import { dark } from "@clerk/themes";
+import TransactionsPage from "./transactions/page";
 
 const Home = async () => {
   const { userId } = await auth();

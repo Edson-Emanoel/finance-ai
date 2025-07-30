@@ -15,3 +15,9 @@ npx shadcn@2.1.3 init
 npm install @clerk/nextjs@5.7.5
 
 npm install @clerk/themes
+
+npx shadcn@2.1.3 add table
+
+npx shadcn@2.1.3 add badge
+
+npm install @tanstack/react-table@8.20.5
