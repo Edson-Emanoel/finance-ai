@@ -21,3 +21,17 @@ npx shadcn@2.1.3 add table
 npx shadcn@2.1.3 add badge
 
 npm install @tanstack/react-table@8.20.5
+
+npx shadcn@2.1.3 add dialog
+
+npx shadcn@2.1.3 add input
+
+npx shadcn@2.1.3 add form
+
+npm install react-number-format@5.4.2
+
+npx shadcn@2.1.3 add select
+
+npx shadcn@2.1.3 add popover
+
+npx shadcn@2.1.3 add calendar
