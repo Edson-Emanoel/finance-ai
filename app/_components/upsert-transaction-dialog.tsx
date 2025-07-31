@@ -118,7 +118,6 @@ const UpsertTransactionDialog = ({
         }
       }}
     >
-      <DialogTrigger asChild></DialogTrigger>
       <DialogContent>
         <DialogHeader>
           <DialogTitle>
