@@ -35,3 +35,5 @@ npx shadcn@2.1.3 add select
 npx shadcn@2.1.3 add popover
 
 npx shadcn@2.1.3 add calendar
+
+npx shadcn@2.1.3 add card
