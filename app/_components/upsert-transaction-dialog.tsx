@@ -102,7 +102,7 @@ const UpsertTransactionDialog = ({
       setIsOpen(false);
       form.reset();
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
 
