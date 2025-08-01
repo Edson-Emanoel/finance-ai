@@ -39,3 +39,7 @@ npx shadcn@2.1.3 add calendar
 npx shadcn@2.1.3 add card
 
 npx shadcn@2.1.3 add chart
+
+npx shadcn@2.1.3 add scroll-area
+
+npx shadcn@2.1.3 add progress

@@ -80,7 +80,7 @@ const TransactionsPieChart = ({
               data={chartData}
               dataKey="amount"
               nameKey="type"
-              innerRadius={50}
+              innerRadius={75}
             />
           </PieChart>
         </ChartContainer>
